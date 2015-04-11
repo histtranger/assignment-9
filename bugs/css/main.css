@@ -1,0 +1,158 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-position: center center;
+    background-image: url(../images/swirly.png);
+    background-repeat: repeat;
+    padding: 0;
+    margin: 0;
+    background-size: 3em;
+    color: #512200;
+    text-align: center;
+}
+
+h1 {
+    padding-top: .25em;
+    padding-bottom: .75em;
+    margin: 0;
+    font-size: 3em;
+    color: #512200; 
+    background-image: url(../images/logo.svg), url(../images/logo.svg);
+    background-repeat: no-repeat;
+    background-position: top left, top right;
+    background-size: 1.5em;
+}
+
+ol {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    background-color: #512200;
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+    text-align: center;
+    padding: 0;
+    margin: 0
+}
+
+li {
+    list-style: none;
+    margin: 0;
+    padding: .75em;
+    display: inline-block;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.4em
+}
+
+.nav {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    overflow: hidden;
+}
+
+nav li:hover {
+    color: #512200;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    background-color: rgba(81,34,0,0.5);
+}
+
+.back {
+    width: 100%;
+    background-color: black; 
+}
+
+.rockzndirt {
+    background-image: url(../images/background.png);
+    background-position: top center / cover no-repeat;
+    padding: calc(.5em + 40vw) 0 0 0;
+}
+
+.p1 {
+    position: relative;
+    color: white;
+    font-size: 1.5em;
+    padding-left: 15%; 
+    padding-bottom: 1em;
+    background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,0.7));
+    margin: 0;
+}
+
+.left {
+    max-width: 100%;
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+
+.right {
+    float: right;
+    width: 100%;
+    padding: 0;
+    margin: 0
+}
+
+.overflow {
+    overflow: hidden;
+}
+
+.what {
+  float: left;
+  position: relative;
+  width: 50%;
+}
+
+.dasbut {
+    position: absolute;
+    color: white;
+    box-shadow: 0 2px 4px rgba(0,0,0.7);
+    text-decoration: none;
+    left: 50%;
+    transform: translateX(-50%);
+    background-image: linear-gradient(180deg, #6fc000, #388200);
+    border-radius: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.6);
+    padding: 0.4em 1em 0.5em;
+    bottom: 15px;
+}
+
+.dasbut:hover {
+    background-image: linear-gradient(to bottom, #388200, #214d00);
+}
+
+footer {
+    background-color: #A79080;
+    padding: 1em;
+    margin: 0 0 0 0;
+    background-image: url(../images/logo.svg);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 4em;
+    text-align: center;
+    color: #512200
+}
